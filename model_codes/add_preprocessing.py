@@ -66,3 +66,6 @@ def create_preprocessor(X):
     ])
 
     return preprocessor
+
+X, y = load_and_prepare_data("Motor_vehicle_insurance_data.csv")
+print("Features used in the model:", X.columns.tolist()) 
