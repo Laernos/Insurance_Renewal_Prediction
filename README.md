@@ -1,5 +1,3 @@
-# Insurance Renewal Prediction using Machine Learning
-
 Predicting whether an auto insurance customer will renew their contract using supervised machine learning models and targeted feature engineering.
 
 - [Research Paper (PDF)](Reports/Written_Report.pdf)  
