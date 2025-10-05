@@ -1,4 +1,3 @@
-# === IMPORTS ===
 import pandas as pd
 from sklearn.model_selection import train_test_split, StratifiedShuffleSplit
 from sklearn.ensemble import GradientBoostingClassifier
@@ -7,8 +6,6 @@ from sklearn.compose import ColumnTransformer
 from sklearn.preprocessing import StandardScaler, OneHotEncoder
 from sklearn.impute import SimpleImputer
 import joblib
-
-# === FUNCTIONS ===
 
 def load_and_prepare_data(filepath, delimiter=';', reference_date="2018-12-31"):
     df = pd.read_csv(filepath, delimiter=delimiter)
